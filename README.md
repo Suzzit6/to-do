@@ -26,8 +26,8 @@ This To-Do List application is a simple yet powerful task management tool built 
 ### Installation Steps
 1. Clone the repository
     ```bash
-    git clone https://github.com/yourusername/todo-project.git
-    cd todo-project
+    git clone https://github.com/Suzzit6/to-do.git
+    cd todoproject
     ```
 
 2. Install dependencies
@@ -47,22 +47,6 @@ This To-Do List application is a simple yet powerful task management tool built 
 npm run build
 ```
 
-## Project Structure
-```
-todo-project/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── TodoForm.jsx
-│   │   ├── TodoList.jsx
-│   │   ├── TodoItem.jsx
-│   │   └── FilterOptions.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── styles/
-├── index.html
-└── README.md
-```
 
 ## About This Assignment
 This project was developed as part of an internship assignment to demonstrate proficiency in React.js and modern front-end development practices. The application showcases skills in:
@@ -72,13 +56,3 @@ This project was developed as part of an internship assignment to demonstrate pr
 - User interface design
 - Data persistence
 - Modern JavaScript practices
-
-## Future Enhancements
-- User authentication
-- Task categories and priorities
-- Due dates and reminders
-- Drag and drop reordering
-- Dark/Light theme toggle
-
-## License
-MIT
