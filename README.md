@@ -1,8 +1,84 @@
-# React + Vite
+# To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This To-Do List application is a simple yet powerful task management tool built with React and Vite. It allows users to create, update, delete, and track their daily tasks efficiently.
 
-Currently, two official plugins are available:
+## Features
+- Add new tasks with descriptions
+- Mark tasks as completed
+- Delete unwanted tasks
+- Filter tasks (All, Active, Completed)
+- Local storage persistence
+- Responsive design for all devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React.js
+- Vite
+- CSS/SCSS
+- LocalStorage API
+
+## Setup Instructions
+
+### Prerequisites
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
+
+### Installation Steps
+1. Clone the repository
+    ```bash
+    git clone https://github.com/yourusername/todo-project.git
+    cd todo-project
+    ```
+
+2. Install dependencies
+    ```bash
+    npm install
+    ```
+
+3. Start the development server
+    ```bash
+    npm run dev
+    ```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+### Building for Production
+```bash
+npm run build
+```
+
+## Project Structure
+```
+todo-project/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── TodoForm.jsx
+│   │   ├── TodoList.jsx
+│   │   ├── TodoItem.jsx
+│   │   └── FilterOptions.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles/
+├── index.html
+└── README.md
+```
+
+## About This Assignment
+This project was developed as part of an internship assignment to demonstrate proficiency in React.js and modern front-end development practices. The application showcases skills in:
+
+- State management in React
+- Component architecture
+- User interface design
+- Data persistence
+- Modern JavaScript practices
+
+## Future Enhancements
+- User authentication
+- Task categories and priorities
+- Due dates and reminders
+- Drag and drop reordering
+- Dark/Light theme toggle
+
+## License
+MIT
