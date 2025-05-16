@@ -1,5 +1,8 @@
 # To-Do List Application
 
+## Live app 
+https://todoapp-assignment-suzzit6.netlify.app/
+
 ## Overview
 This To-Do List application is a simple yet powerful task management tool built with React and Vite. It allows users to create, update, delete, and track their daily tasks efficiently.
 
